@@ -1,9 +1,9 @@
-[![tests](https://github.com/jetcod/laravel-snowflake/actions/workflows/tests.yml/badge.svg?branch=main&event=workflow_run)](https://github.com/jetcod/laravel-snowflake/actions/workflows/tests.yml)
-
-[![styling](https://github.com/jetcod/laravel-snowflake/actions/workflows/style.yml/badge.svg?branch=main&event=workflow_run)](https://github.com/jetcod/laravel-snowflake/actions/workflows/style.yml)
-
-
 # Snowflake
+
+[![tests](https://github.com/jetcod/laravel-snowflake/actions/workflows/tests.yml/badge.svg)](https://github.com/jetcod/laravel-snowflake/actions/workflows/tests.yml)
+
+[![styling](https://github.com/jetcod/laravel-snowflake/actions/workflows/style.yml/badge.svg)](https://github.com/jetcod/laravel-snowflake/actions/workflows/style.yml)
+
 
 This package enables a Laravel application to create Twitter Snowflake identifiers. It is a very thin wrapper around the excellent [Snowflake PHP](https://github.com/godruoyi/php-snowflake) library created by Godruoyi.
 
