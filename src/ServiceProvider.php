@@ -19,7 +19,7 @@ class ServiceProvider extends Provider
         $this->macros();
 
         $this->publishes([
-            __DIR__ . '/../config/snowflake.php' => config_path('snowflake.php')
+            __DIR__ . '/../config/snowflake.php' => config_path('snowflake.php'),
         ], 'laravel-snowflake');
     }
 
