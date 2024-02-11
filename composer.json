@@ -25,7 +25,8 @@
     },
     "require": {
         "php": "^8.0",
-        "godruoyi/php-snowflake": "^2.0"
+        "godruoyi/php-snowflake": "^2.0",
+        "phpstan/phpstan": "^1.10"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
@@ -39,7 +40,8 @@
         }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit"
+        "phpstan": "./vendor/bin/phpstan analyse --memory-limit=-1 src/",
+        "test": "./vendor/bin/phpunit --testdox "
     },
     "minimum-stability": "stable"
 }
